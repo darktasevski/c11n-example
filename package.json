@@ -4,18 +4,51 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "@nx/js": "21.1.1",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@nx/angular": "^21.1.1",
+    "@nx/js": "^21.1.1",
+    "@nx/react": "^21.1.1",
+    "@nx/vite": "21.1.1",
+    "@nx/vue": "^21.1.1",
+    "@nx/web": "^21.1.1",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@types/node": "^20.0.0",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vitest/ui": "^3.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "jiti": "2.4.2",
+    "jsdom": "~22.1.0",
     "nx": "21.1.1",
     "prettier": "^2.6.2",
+    "swc-loader": "0.1.15",
     "tslib": "^2.3.0",
-    "typescript": "~5.7.2"
+    "typescript": "~5.7.2",
+    "vite": "^6.0.0",
+    "vite-plugin-dts": "~4.5.0",
+    "vitest": "^3.0.0",
+    "vue-tsc": "^2.2.8"
   },
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/*",
+    "shared-lib",
+    "react-app",
+    "vue-app",
+    "vanilla-app"
+  ],
+  "dependencies": {
+    "@types/lodash": "^4.17.17",
+    "immer": "^10.1.1",
+    "lodash.set": "^4.3.2",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "vue": "^3.5.13",
+    "zustand": "^5.0.5"
+  }
 }

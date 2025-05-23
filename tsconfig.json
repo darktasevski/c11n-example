@@ -2,5 +2,18 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./shared-lib"
+    },
+    {
+      "path": "./react-app"
+    },
+    {
+      "path": "./vue-app"
+    },
+    {
+      "path": "./vanilla-app"
+    }
+  ]
 }
