@@ -48,3 +48,23 @@ export const registry: Record<Component['type'], (props: any) => HTMLElement> =
       return fallback;
     },
   };
+
+// export function registerDOMComponent(
+//   name: string,
+//   factory: (props: any) => HTMLElement
+// ): void {
+//   registry.set(name, factory);
+// }
+
+// export function renderDOMComponent(component: Component): HTMLElement {
+//   if (component.type === 'custom') {
+//     if (
+//       'render' in component.props &&
+//       typeof component.props.render === 'function'
+//     ) {
+//       return component.props.render();
+//     }
+//   }
+//   const factory = registry.get(component.type);
+//   return factory ? factory(component.props) : document.createElement('div');
+// }

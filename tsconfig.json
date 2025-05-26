@@ -14,6 +14,9 @@
     },
     {
       "path": "./vanilla-app"
+    },
+    {
+      "path": "./react-shared-lib"
     }
   ]
 }

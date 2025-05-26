@@ -26,3 +26,12 @@ export function configUpdater<T extends Config>() {
     },
   };
 }
+
+/*
+export function applyPartialOverride(config, slot, params, instance) {
+  if (typeof config[slot] === 'function') {
+    return config[slot](params, instance);
+  }
+  return null;
+}
+*/

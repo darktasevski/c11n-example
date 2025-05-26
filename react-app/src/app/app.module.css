@@ -1,1 +1,20 @@
-/* Your styles goes here. */
+.wrapper {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  border: 1px solid #ccc;
+}
+
+.title {
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}

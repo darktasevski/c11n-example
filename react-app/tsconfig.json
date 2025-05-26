@@ -3,6 +3,12 @@
   "include": [],
   "references": [
     {
+      "path": "../react-shared-lib"
+    },
+    {
+      "path": "../shared-lib"
+    },
+    {
       "path": "./tsconfig.app.json"
     }
   ],

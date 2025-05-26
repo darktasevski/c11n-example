@@ -11,5 +11,9 @@
     "lib": ["ESNext", "DOM"]
   },
   "include": ["src/**/*.ts"],
-  "references": []
+  "references": [
+    {
+      "path": "../shared-lib/tsconfig.lib.json"
+    }
+  ]
 }
